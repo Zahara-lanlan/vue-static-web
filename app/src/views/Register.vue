@@ -1,0 +1,45 @@
+<template>
+     <div id="main">
+        
+       <div id="register" class="panel">
+           <form action="">
+                <div class="form-item">
+                    <label>
+                        <span class="txt">姓名：</span>
+                        <input type="text" class="form-input">
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        <span class="txt">密码：</span>
+                        <input type="password" class="form-input">
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        <span class="txt">重复密码：</span>
+                        <input type="password" class="form-input">
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        <span class="txt"></span>
+                        <button class="form-button primary">登录</button>
+                        <button class="form-button">注册</button>
+                    </label>
+                </div>
+           </form>
+       </div>    
+
+    </div>
+</template>
+
+<script>
+export default {
+    name:'Register'
+
+}
+
+</script>
+<style>
+</style>
